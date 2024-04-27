@@ -1,0 +1,39 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Card Payment Tracking DS</Id>
+            <Name>Card Payment Tracking DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx+XN8Q8pCkOKl8sh+p/dXwAAAAAyAAAAQwBhAHIAZAAgAFAAYQB5AG0AZQBuAHQAIABUAHIAYQBjAGsAaQBuAGcAIABEAFMAAAAQZgAAAAEAACAAAAAFaaAw3UTehrM3Cb1UqPGmR0IvNGcE0LR4cwEw09rNjAAAAAAOgAAAAAIAACAAAACqKuZtToH33WT4brHem4srIe612/ACbw2YlwMcIGF6ARAAAACvkGVCrSV7tB5P6Tiys2oGQAAAABvwuWwoPnaSfI7vzdQ2ngreyA9dscSoMZoC6/Gu/y8WZR08P0lnpXBvdto8s5XPl6KOrwkpamXXaEBb4LUyysA=</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Card Payment Tracking DW</Id>
+            <Name>Card Payment Tracking DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx+XN8Q8pCkOKl8sh+p/dXwAAAAAyAAAAQwBhAHIAZAAgAFAAYQB5AG0AZQBuAHQAIABUAHIAYQBjAGsAaQBuAGcAIABEAFcAAAAQZgAAAAEAACAAAAB/UQFMbQ1M90glygFU99SOy571HvXBUDcWS8Fg89N61AAAAAAOgAAAAAIAACAAAABvmFp2QP/OwuBpUe8yzqnIKctxS69c9Sls1A+1yQrh7BAAAAA7TXi2UrfpQPAZHSiWTXfcQAAAAIp8YXBn2A14+gZrmQbTSr3++eJtfJCdqp339m+swWuLMizjOu8OhohCrIrGy3N+TVKQlvaGh7WqLp2x8/QI7Jo=</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Card Payment Tracking DS</Id>
+            <Name>Card Payment Tracking DS</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx+XN8Q8pCkOKl8sh+p/dXwAAAAAyAAAAQwBhAHIAZAAgAFAAYQB5AG0AZQBuAHQAIABUAHIAYQBjAGsAaQBuAGcAIABEAFMAAAAQZgAAAAEAACAAAABSyGCFBpfgv26QCfsirkyefQph0WHj5Uf6VvwiitMkvwAAAAAOgAAAAAIAACAAAAAiNL9GhQrl3+3XxMvianYvvekZKBjGxkIfFeuD/VaRSiAAAAAEivkUwT0zrgx8bmdWOHVpFPowAPswDdWzaSQtQ4hGCEAAAABxhgo8Hwjy3ksby9u3DISKa20YG7gi4GycsrxcLisnvP3N0GhPWPfuBMQ9wh12ALcphraA5QJp3AEzhhlVkHPT</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>Card Payment Tracking DW</Id>
+            <Name>Card Payment Tracking DW</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx+XN8Q8pCkOKl8sh+p/dXwAAAAAyAAAAQwBhAHIAZAAgAFAAYQB5AG0AZQBuAHQAIABUAHIAYQBjAGsAaQBuAGcAIABEAFcAAAAQZgAAAAEAACAAAADOaqjgz5n0kcQix/Ydg4V1bcuqpDhk5kLrcaHJjz1rFgAAAAAOgAAAAAIAACAAAADfqlxnqVhKQhe4rAiZ7lQFDBrGGAvFB1Hlthzjsy8QbSAAAAC7XTz0fd/0MkkjmXd/OWLYrXYM/gIhwRW0dzAA16xMykAAAAB1c9uvBlaGXNJPJk3zzcmcIW4sXtnkOGzBkGXZ+aRlOBfK+mVBj/GpiyXOBlyjdq1lw5THJQqtdqjyd/G2zWwc</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>localhost</TargetServer>
+        <TargetDatabase>MultidimensionalProject</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>
